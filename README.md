@@ -30,6 +30,7 @@
             cursor: pointer;
             border-radius: 10px;
             transition: background-color 0.3s ease;
+            margin: 10px;
         }
         button:hover {
             background-color: #b71c1c; /* Rojo más oscuro al pasar el mouse */
@@ -56,6 +57,7 @@
     <h1>Para Sun-hee Rafael</h1>
     <p>Desde que llegaste a mi vida, todo tiene más color. Eres la persona más especial para mí, y hoy quiero hacerte una pregunta muy importante...</p>
     <button onclick="mostrarRespuesta()">¿Quieres ser mi San Valentín?</button>
+    <button onclick="mostrarRespuesta()" style="background-color: #4CAF50;">Sí (es la única opción)</button>
     <p id="respuesta">¡Sun-hee Rafael, eres el amor de mi vida! 💖</p>
     <div class="corazon">❤️</div>
 
